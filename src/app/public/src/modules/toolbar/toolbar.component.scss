@@ -1,0 +1,18 @@
+.toolbar-button-group {
+  background: red;
+}
+
+.toolbar-button-group ::ng-deep {
+
+
+  &:first-child{
+    button {
+
+    }
+  }
+  &:last-child{
+    button {
+
+    }
+  }
+}
